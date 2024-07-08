@@ -1,7 +1,7 @@
 {
-  "homepage": "https://github.com/carolcavalcantei/BATATABET.git",
   "name": "semana1",
   "private": true,
+  "homepage": "https://github.com/carolcavalcantei/BATATABET.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -14,7 +14,10 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-scripts": "4.0.3",
+    "gh-pages": "^3.2.3",
+    "react_router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
