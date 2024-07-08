@@ -1,0 +1,74 @@
+.bet-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: calc((100% / 3) - 10px);
+    min-width: 250px;
+    color: #333;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+  }
+  
+  .bet-card-text {
+    padding: 20px;
+    background-color: rgba(255, 140, 0, 0.85); 
+    z-index: 1;
+  }
+  
+  .bet-card-image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .bet-card p {
+    font-family: 'Futura HV BT Book', Arial, sans-serif;
+    color: #fff; 
+    margin: 0 0 10px;
+  }
+  
+  .bet-card h3 {
+    font-family: 'Futura HV BT Heavy', Arial, sans-serif;
+    color: #fff;
+    margin: 0 0 10px;
+  }
+  
+  .odds {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .odd {
+  background-color: #ff8c00;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Futura HV BT Heavy', Arial, sans-serif;
+  text-align: center;
+  flex: 1;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  .odd:hover {
+    background-color: #500690;
+    color: #fff;
+    cursor: pointer;
+  }
+ 
+
+.odd:first-child,
+.odd:last-child {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.odd.selected {
+  background-color: #40034f; 
+  color: #fff;
+}

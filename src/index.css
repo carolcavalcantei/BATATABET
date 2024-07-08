@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Futura HV BT Book', Arial, sans-serif;
+    background-color: #40034f;
+    color: #fff;
+  }
+  
+  .App {
+    text-align: center;
+  }
+
+  .banner img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+    background-color: #ff8c00;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: #730daa;
+  }
+
+  @media (max-width: 768px) {
+    .bet-cards {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      gap: 10px;
+    }
+  
+    .bet-card {
+        min-width: 80vw;
+    }
+    
+    .sports {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      gap: 10px;
+      
+    }
+
+    .sport {
+        min-width:85vw;
+    }
+
+    .patrocinadores img {
+        max-width: 100%;
+    }
+
+    .logo img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px; 
+        background-color: #ff8c00;
+      }
+      
+    ::-webkit-scrollbar-thumb {
+        background-color: #730daa; }
+    }
